@@ -1,0 +1,274 @@
+/***
+User Profile Sidebar by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  max-height: 130vh;
+}
+
+body {
+  background-color: #fff;
+  height: 100%;
+}
+
+a {
+  color: #7c0a99;
+}
+
+/* Profile container */
+.profile {
+  margin: 20px 0;
+}
+
+.profile-sidebar img {
+  width: 50px;
+}
+
+.btn-custom {
+  background-color: #7c0a99;
+  color: #fff;
+}
+
+.btn-custom:hover {
+  background-color: #530168;
+  color: #fff;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #7c0a99;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-username {
+  color: #5c636b;
+  font-size: 13px;
+  font-weight: 200;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #7c0a99;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  max-height: 70%;
+  width: 75%;
+  float: right;
+  overflow: hidden;
+}
+
+/*-------------------------------chat-------------------------------------------*/
+.incoming_msg {
+  margin-bottom: -15px;
+}
+
+.incoming_msg_img {
+  display: inline-block;
+  width: 6%;
+}
+
+.incoming_msg_img img {
+  width: 100%;
+}
+
+.incoming_msg h4 {
+  margin-left: 60px;
+  color: #007fd4;
+}
+
+.powered {
+  margin-top: 30px;
+}
+
+.powered a {
+  color: #7c0a99;
+}
+
+.received_msg {
+  display: inline-block;
+  padding: 0 0 0 10px;
+  vertical-align: top;
+  width: 92%;
+  margin-bottom: 20px;
+}
+
+.received_withd_msg p {
+  background: #7a7a7a none repeat scroll 0 0;
+  border-radius: 0 15px 15px 15px;
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+
+.time_date {
+  color: #006ea1;
+  display: block;
+  font-size: 12px;
+  margin: 5px 0 0;
+}
+
+.received_withd_msg {
+  width: 57%;
+}
+
+.mesgs {
+  padding: 30px 15px 0 25px;
+  width: 100%;
+  max-height: 80vh;
+}
+
+.sent_msg p {
+  background: #7c0a99;
+  border-radius: 12px 15px 15px 0;
+  font-size: 14px;
+  margin: 0;
+  color: #fff;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+
+.outgoing_msg {
+  overflow: hidden;
+  margin: 15px 0 15px;
+}
+
+.sent_msg {
+  float: right;
+  width: 46%;
+}
+
+.input_msg_write {
+  padding: 0;
+  margin-top: -30px;
+}
+.input_msg_write input[type="text"] {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #4c4c4c;
+  font-size: 15px;
+  min-height: 48px;
+  width: 100%;
+  margin-top: 19px;
+  margin-bottom: -30;
+  outline: none;
+}
+
+.input_msg_write input[type="submit"] {
+  background-color: #7c0a99;
+}
+
+.type_msg {
+  border-top: 1px solid #c4c4c4;
+  position: relative;
+}
+
+.msg_send_btn {
+  background: #05728f none repeat scroll 0 0;
+  border: none;
+  padding: 5;
+  border-radius: 10%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  height: 33px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.fa-paper-plane {
+  left: 5px;
+}
+.messaging {
+  padding: 0 0 50px 0;
+  height: 100%;
+}
+
+.msg_history {
+  height: 80%;
+  overflow-y: auto;
+}

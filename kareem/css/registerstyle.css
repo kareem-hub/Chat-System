@@ -1,0 +1,69 @@
+/*    --------------------------------------------------
+	:: register Section
+	-------------------------------------------------- */
+#register {
+  padding-top: 50px;
+  margin-top: 100px;
+}
+#register .form-wrap {
+  width: 30%;
+  margin: 0 auto;
+}
+#register h1 {
+  color: #7c0a99;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+#register .form-group {
+  margin-bottom: 25px;
+}
+
+#register .btn.btn-custom {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+#register .forget {
+  font-size: 13px;
+  text-align: center;
+  display: block;
+}
+
+/*    --------------------------------------------------
+              :: Inputs & Buttons
+              -------------------------------------------------- */
+.form-control {
+  color: #212121;
+  margin-bottom: -10px;
+}
+.form-control:focus::placeholder {
+  color: transparent;
+}
+.btn-custom {
+  color: #fff;
+  background-color: #7c0a99;
+}
+.btn-custom:hover,
+.btn-custom:focus {
+  color: #fff;
+}
+
+.btn-custom:focus {
+  outline: none;
+}
+
+/*    --------------------------------------------------
+              :: Footer
+              -------------------------------------------------- */
+#footer {
+  color: #7c0a99;
+  font-size: 12px;
+  text-align: center;
+}
+#footer p {
+  margin-bottom: 0;
+}
+a {
+  color: #7c0a99;
+}
